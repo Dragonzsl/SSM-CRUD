@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: MbgTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in MbgTest
+test(MbgTest)  Time elapsed: 0 s  <<< ERROR!
+java.io.FileNotFoundException: mbg.xml (系统找不到指定的文件。)
+	at MbgTest.test(MbgTest.java:22)
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="static/js/jquery-1.7.2.min.js"></script>
+    <link href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function (){
+            $.ajax({
+                url:"http://localhost:8080/ssm_crud/emps",
+                data:"pn=1",
+                type:"POST",
+                success:function (result) {
+                    console.log(result.extend.pageInfo.list[0])
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
